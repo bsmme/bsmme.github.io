@@ -147,7 +147,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
 
 var onClickLogo = function onClickLogo() {
-  alert('we don\'t have a homepage yet!!');
+  window.location.replace("/");
 };
 
 var handleTelemetryModalCancel = function handleTelemetryModalCancel() {
